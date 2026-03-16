@@ -1,0 +1,33 @@
+# Large data files — not tracked in git
+ocr_questions_output.jsonl
+ocr_clean.jsonl
+conversion_log.jsonl
+question_ocr_map.json
+ocr_queue.json
+failure_report.json
+ocr_results_map.json
+ocr_replacement_report.json
+preview_samples.html
+
+# Answer keys — never share with intern
+diagram_flagged_qids.json
+total_loss_qids.json
+ocr_with_dead_images.jsonl
+
+# Internal reference files
+ncert_in_ocr.json
+latex_conversion_failures.json
+conversion_stats.json
+
+# Dedup results
+dedup_results/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
